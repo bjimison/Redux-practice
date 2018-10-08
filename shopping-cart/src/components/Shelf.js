@@ -1,6 +1,6 @@
-import React, { Componenet } from "react";
+import React, { Component } from "react";
 
-class Shelf extends Componenet {
+class Shelf extends Component {
   state = {
     shelfItems: ["Bananas", "Frozen Pizza", "Flamin' Hot Cheetos", "Arugula"]
   };
