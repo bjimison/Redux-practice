@@ -11,6 +11,7 @@ class Shelf extends Component {
         <li key={id}>
           {item}
           <button onClick={() => this.props.addItem(item)}> + </button>
+          <button onClick={() => this.props.removeItem(item)}> - </button>
         </li>
       );
     });
