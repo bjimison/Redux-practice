@@ -14,7 +14,10 @@ class Cart extends Component {
     });
     return (
       <div>
-        <Shelf addItem={this.props.actions.addToCart} />
+        <Shelf
+          addItem={this.props.actions.addToCart}
+          removeItem={this.props.actions.removeFromCart}
+        />
         <h2>Cart</h2>
         <ol>{CartItems}</ol>
       </div>

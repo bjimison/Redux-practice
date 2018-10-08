@@ -4,5 +4,9 @@ export default (state = [], action) => {
       return [...state, action.item];
     default:
       return state;
+    case "REMOVE_ITEM":
+      return [...state];
+    default:
+      return state;
   }
 };
